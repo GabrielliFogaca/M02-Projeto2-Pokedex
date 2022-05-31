@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cinzel:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: roboto;
+}
+
+nav {
+    position: fixed; /* é o que faz o nav 'passar por cima' dos conteúdos */
+    width: 100%; /* O que faz o item no caso o nav ocupar a pagina toda */
+    color: rgb(255, 255, 255);
+    background-color: rgb(160, 0, 0);
+  }
+  
+  nav ul {
+    display: flex; /* Os itens do menu se alinharem lado a lado*/
+    align-items: center;
+    list-style: none;
+  }
+  
+  nav ul li {
+    padding: 1.1rem;
+    font-size: 1.2rem;
+  }
+
+  nav h1 {
+    color: #fff;
+    font-size: 1.4rem;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+  }
+  
+  section#cadastro {
+    display: flex;
+    justify-content: center;
+    padding: 10rem;
+  }
+  
+  section#cadastro img {
+    width: 100%;
+  }
+  
+  section#cadastro h2 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    color: rgb(22, 2, 134);
+  }
+  
+  section#cadastro form {
+    width: 100%;
+  }
+  
+  section#cadastro form input {
+    font-family: roboto;
+    width: 100%;
+    padding: 0.2rem;
+    font-size: 1.5rem;
+    outline: none;
+    border: solid 2px rgb(0, 4, 44);
+    margin: 0 1rem 1rem 1rem;
+  }
+  
+  section#cadastro form label {
+    margin: 1rem;
+    color: rgb(22, 2, 134);
+    font-size: 1.3rem;
+  }
+  
+  section#cadastro form button {
+    padding: 0.6rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    background-color: rgb(160, 0, 0);
+    border: solid 1px rgb(39, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  }
+
+  section#cadastro form button:hover {
+      background-color: #fff;
+      color: rgb(160, 0, 0);
+  }
+
+  section#cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+  }
+  
+  section#cards h2#lista {
+    color: #770000;
+    font-size: 4.1rem;
+  }
+  
+  section#cards div.card {
+    width: 20rem;
+    box-shadow: 5px 5px 5px 5px #00000042;
+    padding: 3rem;
+    margin: 3rem 0 5rem 0;
+  }
+  
+  section#cards h2 {
+    width: 100%;
+    text-align: center;
+  }
+  
+  section#cards div.card img {
+    width: 100%;
+  }
+  
+  section#cards div.card h3 {
+    margin-bottom: 1rem;
+    
+  }
+  
+  section#cards div.card p.descricao {
+    margin-bottom: 1rem;
+  }
+  
+  section#cards div.card a#editar {
+    padding: 0.6rem;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 1rem;
+    background-color: rgb(3, 38, 133);
+    border: solid 1px #b40606;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.7s ease-in-out;
+    text-decoration: none;
+    margin-top: 2rem;
+  }
+  
+  section#cards div.card a#apagar {
+    padding: 0.6rem;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 1rem;
+    background-color: #b40606;
+    border: solid 1px rgb(3, 38, 133);
+    color: #ffffff;;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    margin-top: 1rem;
+  }
+  
+  section#cards div.card a#editar:hover {
+    background-color: #b40606;
+    color: #fff;
+  }
+  
+  section#cards div.card a#apagar:hover {
+    background-color: rgb(3, 38, 133);
+    color: #fff;
+  }
+
+  footer {
+    background-color: rgb(160, 0, 0);
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  footer p {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0.3rem;
+  }
+  
+  footer p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+  }
+  
