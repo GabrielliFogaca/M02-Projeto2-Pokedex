@@ -12,6 +12,10 @@ nav {
     color: rgb(255, 255, 255);
     background-color: rgb(160, 0, 0);
   }
+
+  nav img {
+    width: 2.5rem;
+  }
   
   nav ul {
     display: flex; /* Os itens do menu se alinharem lado a lado*/
@@ -34,15 +38,27 @@ nav {
     color: #fff;
     font-size: 1.3rem;
   }
+
+  header img {
+    width: 100%;
+  }
   
   section#cadastro {
     display: flex;
     justify-content: center;
     padding: 10rem;
   }
+
+  section#cadastro h2 {
+    text-shadow: rgba(0, 131, 136, 0.582) 2px 4px 4px;
+  }
   
   section#cadastro img {
     width: 100%;
+  }
+
+  section#cards h2 {
+    text-shadow: #000 2px 3px 4px;
   }
   
   section#cadastro h2 {
